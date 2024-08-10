@@ -1,4 +1,4 @@
-bindings:
-- members:
-  - allUsers
-  role: roles/run.invoker
+# bindings:
+# - members:
+#   - allUsers
+#   role: roles/run.invoker
