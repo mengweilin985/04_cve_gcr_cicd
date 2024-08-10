@@ -1,5 +1,5 @@
 {
-    "name": "Python CVE cdcd repository Devcontainer",
+    "name": "Python CVE cd cd repository Devcontainer",
     "build": {
       "dockerfile": "../Dockerfile.dev"
     },
