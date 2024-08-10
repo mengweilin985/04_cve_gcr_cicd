@@ -1,9 +1,9 @@
 name: Deploy to Cloud Run through github
 
 env:
-  SERVICE_NAME: ml-run-service
-  PROJECT_ID: ml-cve
-  DOCKER_IMAGE_URL: asia-southeast1-docker.pkg.dev/ml-cve/ml-cve-run/ml-cve-run
+  SERVICE_NAME: github-action-cve-run
+  PROJECT_ID: github-action-cve
+  DOCKER_IMAGE_URL: asia-southeast1-docker.pkg.dev/github-action-cve/cloud-run-source-deploy/cloud-run-source-deploy
 
 on:
   push:

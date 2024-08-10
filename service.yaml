@@ -1,12 +1,12 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: ml-run-service
+  name: github-action-cve-run
 spec:
   template:
     spec:
       containers:
-        - image: asia-southeast1-docker.pkg.dev/ml-cve/ml-cve-run/ml-cve-run:latest
+        - image: asia-southeast1-docker.pkg.dev/github-action-cve/cloud-run-source-deploy/cloud-run-source-deploy:latest
           env:
             - name: SERVICE_PORT
               value: "8080"
